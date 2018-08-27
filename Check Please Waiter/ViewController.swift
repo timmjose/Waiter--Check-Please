@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     
     func updateUI(total : Double, split : Double) {
         //grandTotal.text = "$ \(total), split : \(split)"
-        grandTotal.text = String(format: "%.2f", total)
+        grandTotal.text = "$" + String(format: "%.2f", total) + "split value: \(split)"
     } // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 }
 
